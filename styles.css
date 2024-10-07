@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #810000; /* Mengubah warna latar belakang halaman */
+}
+
+header {
+    background-color: #E0A75E;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Flex container for navigation */
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #810000; /* Warna latar belakang untuk navigasi */
+    margin-bottom: 20px;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Spasi antar item menu */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Container for main content and side box */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.main-content {
+    flex: 2; /* Bagian konten utama lebih besar */
+    padding-right: 20px;
+}
+
+.side-box {
+    flex: 1; /* Bagian samping */
+    background-color: #f4f4f4; /* Warna latar belakang box */
+    padding: 20px;
+    border: 1px solid #ddd; /* Garis batas */
+}
+
+/* Section styles */
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed; /* Menjaga footer tetap di bawah */
+    width: 100%;
+    bottom: 0;
+}
